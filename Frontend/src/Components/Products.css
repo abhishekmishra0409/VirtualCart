@@ -1,0 +1,53 @@
+.Product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 18rem;
+    margin: 30px;
+    padding: 0;
+}
+.Products{
+    display: flex;
+    /* display: block; */
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.btn{
+    background-color: #466349;
+    color: white;
+}
+.btn:hover {
+    background-color: #3b453c;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.card-img-top{
+    aspect-ratio: 1;
+    margin: auto;
+}
+.ImgCard{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.card{
+    border: 0px;
+    text-decoration: none;
+}
+.prev-nextbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.cardBody  {
+    color: #212529;
+}
